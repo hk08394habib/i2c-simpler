@@ -1,0 +1,18 @@
+{
+    "default_part": "XC7A35TCPG236-1",
+    "dependencies": {
+        "sources": ["clk_div.v","top.v","i2c_master.v"],
+        "xdc": ["generic.xdc"],
+        "synth_log": "synth.log",
+        "pack_log": "pack.log"
+    },
+    "values": {
+        "top": "top"
+    },
+ "XC7A35TCPG236-1" : {
+        "default_target": "bitstream",
+        "dependencies": {
+            "build_dir": "build"
+        }
+    }
+}
